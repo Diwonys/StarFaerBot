@@ -20,11 +20,11 @@ namespace TelegramBotApp
                 public static string PathResources { get; set; } = @"/app/TelegramBotApp/Resources/";
         #endif
 
-        public static string Name { get; set; } = "infobet_bot";
+        public static string Name { get; set; } = "";
         #if Test
-        public static string Key { get; set; } = "1175421180:AAFKHLekGFphZLXl_QFr_7W7kOdyWo-8W1A";
+        public static string Key { get; set; } = "";
         #else
-            public static string Key { get; set; } = "1325257494:AAFgV0s6j5IK4JWcydT-0Eqkii2KW063eAk";
+            public static string Key { get; set; } = "";
         #endif
     }
 }
