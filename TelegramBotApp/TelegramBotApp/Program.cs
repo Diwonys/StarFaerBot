@@ -16,11 +16,6 @@ namespace TelegramBotApp
         {
             Bot bot = new Bot();
             bot.Get();
-            //CreateWebHostBuilder(args).Build().Run();
         }
-
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
     }
 }
